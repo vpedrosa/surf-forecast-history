@@ -1,0 +1,964 @@
+{
+  "beaches": [
+    {
+      "name": "Barbate River",
+      "latitude": 36.1864114,
+      "longitude": -5.9178104,
+      "orientation": "S"
+    },
+    {
+      "name": "Bolonia",
+      "latitude": 36.0886056,
+      "longitude": -5.7785426,
+      "orientation": "S"
+    },
+    {
+      "name": "Cabo Roche",
+      "latitude": 36.318784,
+      "longitude": -6.139265,
+      "orientation": "W"
+    },
+    {
+      "name": "Calita",
+      "latitude": 36.3127271,
+      "longitude": -5.2469132,
+      "orientation": "E"
+    },
+    {
+      "name": "Canos de Meca",
+      "latitude": 36.1870353,
+      "longitude": -6.0264006,
+      "orientation": "S"
+    },
+    {
+      "name": "Chiclana de la Frontera",
+      "latitude": 36.3958099,
+      "longitude": -6.1340574,
+      "orientation": "W"
+    },
+    {
+      "name": "Chipiona",
+      "latitude": 36.724288,
+      "longitude": -6.4401971,
+      "orientation": "W"
+    },
+    {
+      "name": "Conil",
+      "latitude": 36.3079449,
+      "longitude": -6.151290899999999,
+      "orientation": "W"
+    },
+    {
+      "name": "Conil de la Frontera",
+      "latitude": 36.2780988,
+      "longitude": -6.086207099999999,
+      "orientation": "SW"
+    },
+    {
+      "name": "El Balneario",
+      "latitude": 36.0099181,
+      "longitude": -5.8885949,
+      "orientation": "SW"
+    },
+    {
+      "name": "El Caño de la Culata",
+      "latitude": 37.2119936,
+      "longitude": -7.0653674,
+      "orientation": "S"
+    },
+    {
+      "name": "El Castillo",
+      "latitude": 28.3952886,
+      "longitude": -13.8609042,
+      "orientation": "E"
+    },
+    {
+      "name": "El Chanquete",
+      "latitude": 36.7165838,
+      "longitude": -4.3478427,
+      "orientation": "S"
+    },
+    {
+      "name": "El Sunset (Benalmádena)",
+      "latitude": 36.5964743,
+      "longitude": -4.5197688,
+      "orientation": "SE"
+    },
+    {
+      "name": "Faro de Trafalgar",
+      "latitude": 36.1851957,
+      "longitude": -6.0361693,
+      "orientation": "S"
+    },
+    {
+      "name": "Fuengirola",
+      "latitude": 36.5572565,
+      "longitude": -4.6094563,
+      "orientation": "SE"
+    },
+    {
+      "name": "Getares",
+      "latitude": 36.0959831,
+      "longitude": -5.4433847,
+      "orientation": "E"
+    },
+    {
+      "name": "Guadalmar",
+      "latitude": 36.6624796,
+      "longitude": -4.4580116,
+      "orientation": "E"
+    },
+    {
+      "name": "Isla Canela",
+      "latitude": 37.1738459,
+      "longitude": -7.3722524,
+      "orientation": "S"
+    },
+    {
+      "name": "La Barossa",
+      "latitude": 36.34645214269198,
+      "longitude": -6.177750490931794,
+      "orientation": "W"
+    },
+    {
+      "name": "La Cabanita",
+      "latitude": 36.5319341,
+      "longitude": -5.5348774,
+      "orientation": "W"
+    },
+    {
+      "name": "La Chucha",
+      "latitude": 36.6951965,
+      "longitude": -3.4525167,
+      "orientation": "S"
+    },
+    {
+      "name": "La Herradura",
+      "latitude": 36.732001,
+      "longitude": -3.7394775,
+      "orientation": "SW"
+    },
+    {
+      "name": "La Muralla",
+      "latitude": 36.5801799,
+      "longitude": -6.265144599999999,
+      "orientation": "S"
+    },
+    {
+      "name": "La Playita",
+      "latitude": 36.6302448,
+      "longitude": -6.4142246,
+      "orientation": "W"
+    },
+    {
+      "name": "La Yerbabuena",
+      "latitude": 36.18559570000001,
+      "longitude": -5.9401454,
+      "orientation": "SW"
+    },
+    {
+      "name": "Largos",
+      "latitude": 43.7095479,
+      "longitude": -7.5107109,
+      "orientation": "NE"
+    },
+    {
+      "name": "Las Caracolas",
+      "latitude": 37.014441,
+      "longitude": -1.785207,
+      "orientation": "E"
+    },
+    {
+      "name": "Las Redes",
+      "latitude": 36.5998029,
+      "longitude": -6.2767101,
+      "orientation": "SW"
+    },
+    {
+      "name": "Los Lances",
+      "latitude": 36.03516949999999,
+      "longitude": -5.623453,
+      "orientation": "SW"
+    },
+    {
+      "name": "Marbella - Playa del Cable",
+      "latitude": 36.5071655,
+      "longitude": -4.8711882,
+      "orientation": "S"
+    },
+    {
+      "name": "Matalascañas",
+      "latitude": 36.9970581,
+      "longitude": -6.551591999999999,
+      "orientation": "SW"
+    },
+    {
+      "name": "Mazagon",
+      "latitude": 37.1291582,
+      "longitude": -6.8280655,
+      "orientation": "S"
+    },
+    {
+      "name": "Melilla Beach",
+      "latitude": 35.2746851,
+      "longitude": -2.9312856,
+      "orientation": "NE"
+    },
+    {
+      "name": "Mojacar",
+      "latitude": 37.1295559,
+      "longitude": -1.8302623,
+      "orientation": "E"
+    },
+    {
+      "name": "Molino de Papel",
+      "latitude": 36.7512931,
+      "longitude": -3.8161226,
+      "orientation": "S"
+    },
+    {
+      "name": "Pico de el Puerto",
+      "latitude": 36.53792,
+      "longitude": -6.2066744,
+      "orientation": "SW"
+    },
+    {
+      "name": "Pico de las Cocheras",
+      "latitude": 36.2077755,
+      "longitude": -6.0580252,
+      "orientation": "SW"
+    },
+    {
+      "name": "Playa Central",
+      "latitude": 37.1957771,
+      "longitude": -7.3055659,
+      "orientation": "SE"
+    },
+    {
+      "name": "Playa de Camposoto",
+      "latitude": 36.4275163,
+      "longitude": -6.2302943,
+      "orientation": "W"
+    },
+    {
+      "name": "Playa de Carchuna",
+      "latitude": 36.6952331,
+      "longitude": -3.4395808,
+      "orientation": "S"
+    },
+    {
+      "name": "Playa de Hierbabuena",
+      "latitude": 36.18559570000001,
+      "longitude": -5.9401454,
+      "orientation": "S"
+    },
+    {
+      "name": "Playa de la Barrosa",
+      "latitude": 36.34645214269198,
+      "longitude": -6.177750490931794,
+      "orientation": "SW"
+    },
+    {
+      "name": "Playa de la Canaleta",
+      "latitude": 37.1731652,
+      "longitude": -6.950631,
+      "orientation": "SW"
+    },
+    {
+      "name": "Playa de Lagos",
+      "latitude": 36.7434969,
+      "longitude": -4.0190245,
+      "orientation": "SW"
+    },
+    {
+      "name": "Playa de Regla",
+      "latitude": 36.7260604,
+      "longitude": -6.4393558,
+      "orientation": "W"
+    },
+    {
+      "name": "Playa de Tres Piedras",
+      "latitude": 36.7026171,
+      "longitude": -6.429202399999999,
+      "orientation": "W"
+    },
+    {
+      "name": "Playa el Bombo",
+      "latitude": 36.4952012,
+      "longitude": -4.6895166,
+      "orientation": "SE"
+    },
+    {
+      "name": "Playa El Palmar",
+      "latitude": 8.466033699999999,
+      "longitude": -79.9568556,
+      "orientation": "SE"
+    },
+    {
+      "name": "Playa la Carihuela",
+      "latitude": 36.6076282,
+      "longitude": -4.5046061,
+      "orientation": "SE"
+    },
+    {
+      "name": "Puerto Cabopino",
+      "latitude": 36.4842856,
+      "longitude": -4.740075,
+      "orientation": "S"
+    },
+    {
+      "name": "Puerto Marina",
+      "latitude": 36.597923,
+      "longitude": -4.5148227,
+      "orientation": "SE"
+    },
+    {
+      "name": "Punta del Moral",
+      "latitude": 37.1893251,
+      "longitude": -7.342878799999999,
+      "orientation": "S"
+    },
+    {
+      "name": "Punta Umbria (Playa Camarón)",
+      "latitude": 37.1857232,
+      "longitude": -6.9692655,
+      "orientation": "SW"
+    },
+    {
+      "name": "Torre Gorda",
+      "latitude": 36.4611913,
+      "longitude": -6.2537577,
+      "orientation": "W"
+    },
+    {
+      "name": "Zahara de los Atunes",
+      "latitude": 36.1555311,
+      "longitude": -5.8708338,
+      "orientation": "SW"
+    },
+    {
+      "name": "Cabo Lastres",
+      "latitude": 43.536076,
+      "longitude": -5.3022265,
+      "orientation": "NW"
+    },
+    {
+      "name": "Cala De Meron",
+      "latitude": 43.3921953,
+      "longitude": -4.3813284,
+      "orientation": "N"
+    },
+    {
+      "name": "Concha de Artedo",
+      "latitude": 43.5676218,
+      "longitude": -6.191981699999999,
+      "orientation": "NE"
+    },
+    {
+      "name": "El Mongol",
+      "latitude": 43.5449441,
+      "longitude": -5.6442717,
+      "orientation": "NW"
+    },
+    {
+      "name": "La Arena",
+      "latitude": 43.3467661,
+      "longitude": -3.1196359,
+      "orientation": "N"
+    },
+    {
+      "name": "La Nora",
+      "latitude": 43.5477044,
+      "longitude": -5.5907766,
+      "orientation": "N"
+    },
+    {
+      "name": "La Paloma",
+      "latitude": 43.5635322,
+      "longitude": -6.9568141,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa Aguilera",
+      "latitude": 43.6232535,
+      "longitude": -5.8863395,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa Bahinas",
+      "latitude": 43.5778676,
+      "longitude": -6.0055691,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Andrin",
+      "latitude": 43.4107881,
+      "longitude": -4.708677799999999,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de Arnao",
+      "latitude": 43.5487803,
+      "longitude": -7.0219551,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Barayo",
+      "latitude": 43.5607804,
+      "longitude": -6.6142638,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de Bayas",
+      "latitude": 43.5743854,
+      "longitude": -6.0460813,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa de Cadavedo",
+      "latitude": 43.5520602,
+      "longitude": -6.3716418,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de Candas",
+      "latitude": 43.58909790000001,
+      "longitude": -5.7626532,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de Cervigon",
+      "latitude": 43.5483083,
+      "longitude": -5.639263,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa de Cueva",
+      "latitude": 43.5508209,
+      "longitude": -6.4788199,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Espana",
+      "latitude": 43.5446958,
+      "longitude": -5.529413799999999,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Frexulfe",
+      "latitude": 43.5592345,
+      "longitude": -6.678179999999999,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de la Atalaya y Cazanera",
+      "latitude": 43.464059,
+      "longitude": -5.055285599999999,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de la Cagonera",
+      "latitude": 43.5490878,
+      "longitude": -5.6060428,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de la Griega",
+      "latitude": 43.5009106,
+      "longitude": -5.259628999999999,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Lastres",
+      "latitude": 43.508119,
+      "longitude": -5.2708109,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de Llumeres",
+      "latitude": 43.6391835,
+      "longitude": -5.8263185,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Luanco",
+      "latitude": 43.6185761,
+      "longitude": -5.787600599999999,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de Mendia",
+      "latitude": 43.3942407,
+      "longitude": -4.5564789,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa de Navia",
+      "latitude": 43.5555382,
+      "longitude": -6.7221217,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Niembro",
+      "latitude": 43.4404338,
+      "longitude": -4.8399388,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Oleiros",
+      "latitude": 43.5664212,
+      "longitude": -6.2085189,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Otur",
+      "latitude": 43.5531623,
+      "longitude": -6.597360000000001,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Palombina",
+      "latitude": 43.4330693,
+      "longitude": -4.808976299999999,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Penarronda",
+      "latitude": 43.5536162,
+      "longitude": -6.9967641,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Penarrubia",
+      "latitude": 43.5501245,
+      "longitude": -5.6284628,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Salinas",
+      "latitude": 43.5789681,
+      "longitude": -5.9588071,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa de San Antolin",
+      "latitude": 43.44277779999999,
+      "longitude": -4.8672222,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa de San Juan",
+      "latitude": 38.3747907,
+      "longitude": -0.4092783,
+      "orientation": "E"
+    },
+    {
+      "name": "Playa de San Lorenzo",
+      "latitude": 43.5410462,
+      "longitude": -5.650066499999999,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de San Martin",
+      "latitude": 43.4349682,
+      "longitude": -3.4512545,
+      "orientation": "E"
+    },
+    {
+      "name": "Playa de San Pedro",
+      "latitude": 36.4725857,
+      "longitude": -4.9862369,
+      "orientation": "SE"
+    },
+    {
+      "name": "Playa de Santa Marina",
+      "latitude": 43.4663473,
+      "longitude": -5.0645859,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Tapia",
+      "latitude": 43.56417159999999,
+      "longitude": -6.952674399999999,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Torimbia",
+      "latitude": 43.4420814,
+      "longitude": -4.8517395,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Tranqueru",
+      "latitude": 43.5739706,
+      "longitude": -5.735719599999999,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Vega",
+      "latitude": 43.4786985,
+      "longitude": -5.1443471,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa de Vidiago",
+      "latitude": 43.4015555,
+      "longitude": -4.6513314,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de Viso",
+      "latitude": 43.4760268,
+      "longitude": -5.199542699999999,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Xago",
+      "latitude": 43.6049606,
+      "longitude": -5.9191785,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa del Moro",
+      "latitude": 28.68742869999999,
+      "longitude": -13.8321324,
+      "orientation": "E"
+    },
+    {
+      "name": "Playa los Frailes",
+      "latitude": -1.4921668,
+      "longitude": -80.7926143,
+      "orientation": "W"
+    },
+    {
+      "name": "Playa Santa Maria del Mar",
+      "latitude": 36.5180034,
+      "longitude": -6.2865623,
+      "orientation": "W"
+    },
+    {
+      "name": "Playa Tenrero",
+      "latitude": 43.6259628,
+      "longitude": -5.8772665,
+      "orientation": "NW"
+    },
+    {
+      "name": "Puerto de Vega",
+      "latitude": 43.56497359999999,
+      "longitude": -6.647783,
+      "orientation": "N"
+    },
+    {
+      "name": "Rodiles",
+      "latitude": 43.53173719999999,
+      "longitude": -5.3769428,
+      "orientation": "N"
+    },
+    {
+      "name": "Rodiles - Main Beach",
+      "latitude": 43.5329589,
+      "longitude": -5.3779811,
+      "orientation": "N"
+    },
+    {
+      "name": "Salinas",
+      "latitude": 43.5789681,
+      "longitude": -5.9588071,
+      "orientation": "NW"
+    },
+    {
+      "name": "Tapia de Casariego",
+      "latitude": 43.5702333,
+      "longitude": -6.9439096,
+      "orientation": "N"
+    },
+    {
+      "name": "Xivares",
+      "latitude": 43.5677792,
+      "longitude": -5.7207683,
+      "orientation": "N"
+    },
+    {
+      "name": "Ajo",
+      "latitude": 43.4954741,
+      "longitude": -3.6160211,
+      "orientation": "N"
+    },
+    {
+      "name": "Copacabana",
+      "latitude": -22.9738729,
+      "longitude": -43.18531,
+      "orientation": "SE"
+    },
+    {
+      "name": "El Arenal",
+      "latitude": 39.5024233,
+      "longitude": 2.7505095,
+      "orientation": "W"
+    },
+    {
+      "name": "El Brusco",
+      "latitude": 43.467956,
+      "longitude": -3.4770204,
+      "orientation": "N"
+    },
+    {
+      "name": "El Huerto",
+      "latitude": 43.4328569,
+      "longitude": -4.0605788,
+      "orientation": "N"
+    },
+    {
+      "name": "El Sardinero - Primera",
+      "latitude": 43.47535449999999,
+      "longitude": -3.7847559,
+      "orientation": "E"
+    },
+    {
+      "name": "El Sardinero - Segunda",
+      "latitude": 43.47535449999999,
+      "longitude": -3.7847559,
+      "orientation": "NE"
+    },
+    {
+      "name": "Islares",
+      "latitude": 43.4042055,
+      "longitude": -3.2999497,
+      "orientation": "N"
+    },
+    {
+      "name": "Laredo",
+      "latitude": 43.4163889,
+      "longitude": -3.4358333,
+      "orientation": "NE"
+    },
+    {
+      "name": "Liencres",
+      "latitude": 43.4496097,
+      "longitude": -3.9663283,
+      "orientation": "NW"
+    },
+    {
+      "name": "Los Locos",
+      "latitude": 43.4378638,
+      "longitude": -4.0475113,
+      "orientation": "N"
+    },
+    {
+      "name": "Noja",
+      "latitude": 43.4778187,
+      "longitude": -3.5153506,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de Arenillas",
+      "latitude": 43.40389589999999,
+      "longitude": -3.3124142,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Berria",
+      "latitude": 43.4644552,
+      "longitude": -3.4656137,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Brazomar",
+      "latitude": 43.3740016,
+      "longitude": -3.2116091,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Galizano",
+      "latitude": 43.4802262,
+      "longitude": -3.6780116,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa de Gerra",
+      "latitude": 43.3970676,
+      "longitude": -4.3602063,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa de la Concha",
+      "latitude": 43.3186188,
+      "longitude": -1.9860118,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Langre",
+      "latitude": 43.475166,
+      "longitude": -3.6905336,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de los Barcos",
+      "latitude": 43.4962418,
+      "longitude": -3.5422759,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de Meron",
+      "latitude": 43.3908467,
+      "longitude": -4.3773916,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Miono",
+      "latitude": 43.35967369999999,
+      "longitude": -3.2026199,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Orinon",
+      "latitude": 43.4003412,
+      "longitude": -3.3247266,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de Oyambre",
+      "latitude": 43.39714379999999,
+      "longitude": -4.338789,
+      "orientation": "NE"
+    },
+    {
+      "name": "Playa de Ris",
+      "latitude": 43.4908937,
+      "longitude": -3.5298864,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Robayera",
+      "latitude": 43.4436357,
+      "longitude": -3.9836174,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Somo",
+      "latitude": 43.4587412,
+      "longitude": -3.7336711,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Tagle",
+      "latitude": 43.4276735,
+      "longitude": -4.0935214,
+      "orientation": "NW"
+    },
+    {
+      "name": "San Vicente",
+      "latitude": 16.3680018,
+      "longitude": -94.96074019999999,
+      "orientation": "E"
+    },
+    {
+      "name": "San Vicente Rivermouth",
+      "latitude": 43.394282,
+      "longitude": -4.397528,
+      "orientation": "N"
+    },
+    {
+      "name": "Sopico",
+      "latitude": 43.4810527,
+      "longitude": -3.7893357,
+      "orientation": "NE"
+    },
+    {
+      "name": "Louro (Playa Area Maior)",
+      "latitude": 42.75227,
+      "longitude": -9.1006667,
+      "orientation": "SW"
+    },
+    {
+      "name": "Matadeiro",
+      "latitude": -27.7548429,
+      "longitude": -48.4985647,
+      "orientation": "N"
+    },
+    {
+      "name": "Nemina",
+      "latitude": 43.0070035,
+      "longitude": -9.2679667,
+      "orientation": "SW"
+    },
+    {
+      "name": "Pantin",
+      "latitude": 43.6392834,
+      "longitude": -8.1144005,
+      "orientation": "N"
+    },
+    {
+      "name": "Pedra do Sal",
+      "latitude": 43.3020888,
+      "longitude": -8.6580996,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa Aguieira",
+      "latitude": 42.7406684,
+      "longitude": -8.9745689,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa da A Marosa",
+      "latitude": 43.6606543,
+      "longitude": -7.356732899999999,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Area",
+      "latitude": 43.689393,
+      "longitude": -7.580167700000001,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Baldayo - La Laguna",
+      "latitude": 43.2925,
+      "longitude": -8.6947222,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Baleo",
+      "latitude": 43.6455213,
+      "longitude": -8.102115699999999,
+      "orientation": "NW"
+    },
+    {
+      "name": "Playa de Barona",
+      "latitude": 42.6902389,
+      "longitude": -9.0279165,
+      "orientation": "W"
+    },
+    {
+      "name": "Playa de Barra",
+      "latitude": 42.26108190000001,
+      "longitude": -8.851936799999999,
+      "orientation": "S"
+    },
+    {
+      "name": "Playa de Barranan",
+      "latitude": 43.3109273,
+      "longitude": -8.5521997,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Bastiagueiro",
+      "latitude": 43.34087239999999,
+      "longitude": -8.364640399999999,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Caion",
+      "latitude": 43.314949,
+      "longitude": -8.6102426,
+      "orientation": "N"
+    },
+    {
+      "name": "Playa de Campelo",
+      "latitude": 43.5827639,
+      "longitude": -8.2155734,
+      "orientation": "W"
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+[
+  {
+    "fecha": "2013-11-20 18:00:00.0",
+    "Datos horarios": "2.37"
+  },
+  {
+    "fecha": "2013-11-20 19:00:00.0",
+    "Datos horarios": "2.42"
+  },
+  {
+    "fecha": "2013-11-20 20:00:00.0",
+    "Datos horarios": "2.62"
+  },
+  {
+    "fecha": "2013-11-20 21:00:00.0",
+    "Datos horarios": "2.52"
+  },
+  {
+    "fecha": "2013-11-20 22:00:00.0",
+    "Datos horarios": "2.55"
+  },
+  {
+    "fecha": "2013-11-20 23:00:00.0",
+    "Datos horarios": "2.88"
+  },
+  {
+    "fecha": "2013-11-21 00:00:00.0",
+    "Datos horarios": "2.72"
+  },
+  {
+    "fecha": "2013-11-21 01:00:00.0",
+    "Datos horarios": "3.34"
+  },
+  {
+    "fecha": "2013-11-21 02:00:00.0",
+    "Datos horarios": "3.09"
+  },
+  {
+    "fecha": "2013-11-21 03:00:00.0",
+    "Datos horarios": "3.63"
+  },
+  {
+    "fecha": "2013-11-21 04:00:00.0",
+    "Datos horarios": "4.24"
+  },
+  {
+    "fecha": "2013-11-21 05:00:00.0",
+    "Datos horarios": "4.12"
+  },
+  {
+    "fecha": "2013-11-21 06:00:00.0",
+    "Datos horarios": "4.44"
+  },
+  {
+    "fecha": "2013-11-21 07:00:00.0",
+    "Datos horarios": "4.75"
+  },
+  {
+    "fecha": "2013-11-21 08:00:00.0",
+    "Datos horarios": "4.46"
+  },
+  {
+    "fecha": "2013-11-21 09:00:00.0",
+    "Datos horarios": "3.89"
+  },
+  {
+    "fecha": "2013-11-21 10:00:00.0",
+    "Datos horarios": "4.21"
+  },
+  {
+    "fecha": "2013-11-21 11:00:00.0",
+    "Datos horarios": "4.17"
+  },
+  {
+    "fecha": "2013-11-21 12:00:00.0",
+    "Datos horarios": "4.58"
+  },
+  {
+    "fecha": "2013-11-21 14:00:00.0",
+    "Datos horarios": "4.0"
+  },
+  {
+    "fecha": "2013-11-21 15:00:00.0",
+    "Datos horarios": "4.12"
+  },
+  {
+    "fecha": "2013-11-21 18:00:00.0",
+    "Datos horarios": "3.63"
+  },
+  {
+    "fecha": "2013-11-21 19:00:00.0",
+    "Datos horarios": "3.87"
+  },
+  {
+    "fecha": "2013-11-21 20:00:00.0",
+    "Datos horarios": "3.82"
+  },
+  {
+    "fecha": "2013-11-21 21:00:00.0",
+    "Datos horarios": "3.83"
+  },
+  {
+    "fecha": "2013-11-21 22:00:00.0",
+    "Datos horarios": "3.75"
+  },
+  {
+    "fecha": "2013-11-21 23:00:00.0",
+    "Datos horarios": "3.66"
+  },
+  {
+    "fecha": "2013-11-22 00:00:00.0",
+    "Datos horarios": "3.58"
+  },
+  {
+    "fecha": "2013-11-22 01:00:00.0",
+    "Datos horarios": "3.55"
+  },
+  {
+    "fecha": "2013-11-22 02:00:00.0",
+    "Datos horarios": "3.92"
+  },
+  {
+    "fecha": "2013-11-22 03:00:00.0",
+    "Datos horarios": "3.55"
+  },
+  {
+    "fecha": "2013-11-22 04:00:00.0",
+    "Datos horarios": "3.47"
+  },
+  {
+    "fecha": "2013-11-22 05:00:00.0",
+    "Datos horarios": "3.45"
+  },
+  {
+    "fecha": "2013-11-22 06:00:00.0",
+    "Datos horarios": "3.0"
+  },
+  {
+    "fecha": "2013-11-22 07:00:00.0",
+    "Datos horarios": "3.08"
+  },
+  {
+    "fecha": "2013-11-22 08:00:00.0",
+    "Datos horarios": "2.89"
+  },
+  {
+    "fecha": "2013-11-22 09:00:00.0",
+    "Datos horarios": "2.6"
+  },
+  {
+    "fecha": "2013-11-22 10:00:00.0",
+    "Datos horarios": "2.65"
+  },
+  {
+    "fecha": "2013-11-22 11:00:00.0",
+    "Datos horarios": "2.75"
+  },
+  {
+    "fecha": "2013-11-22 12:00:00.0",
+    "Datos horarios": "2.72"
+  },
+  {
+    "fecha": "2013-11-22 14:00:00.0",
+    "Datos horarios": "2.32"
+  },
+  {
+    "fecha": "2013-11-22 15:00:00.0",
+    "Datos horarios": "2.45"
+  },
+  {
+    "fecha": "2013-11-22 16:00:00.0",
+    "Datos horarios": "2.22"
+  },
+  {
+    "fecha": "2013-11-22 17:00:00.0",
+    "Datos horarios": "2.13"
+  },
+  {
+    "fecha": "2013-11-22 18:00:00.0",
+    "Datos horarios": "1.98"
+  },
+  {
+    "fecha": "2013-11-22 19:00:00.0",
+    "Datos horarios": "1.78"
+  },
+  {
+    "fecha": "2013-11-22 20:00:00.0",
+    "Datos horarios": "1.7"
+  },
+  {
+    "fecha": "2013-11-22 21:00:00.0",
+    "Datos horarios": "1.74"
+  },
+  {
+    "fecha": "2013-11-22 22:00:00.0",
+    "Datos horarios": "1.64"
+  },
+  {
+    "fecha": "2013-11-22 23:00:00.0",
+    "Datos horarios": "1.95"
+  },
+  {
+    "fecha": "2013-11-23 00:00:00.0",
+    "Datos horarios": "1.77"
+  },
+  {
+    "fecha": "2013-11-23 01:00:00.0",
+    "Datos horarios": "2.12"
+  },
+  {
+    "fecha": "2013-11-23 02:00:00.0",
+    "Datos horarios": "2.03"
+  },
+  {
+    "fecha": "2013-11-23 03:00:00.0",
+    "Datos horarios": "2.05"
+  },
+  {
+    "fecha": "2013-11-23 04:00:00.0",
+    "Datos horarios": "2.01"
+  },
+  {
+    "fecha": "2013-11-23 05:00:00.0",
+    "Datos horarios": "2.14"
+  },
+  {
+    "fecha": "2013-11-23 06:00:00.0",
+    "Datos horarios": "2.07"
+  },
+  {
+    "fecha": "2013-11-23 07:00:00.0",
+    "Datos horarios": "2.06"
+  },
+  {
+    "fecha": "2013-11-23 08:00:00.0",
+    "Datos horarios": "2.04"
+  },
+  {
+    "fecha": "2013-11-23 09:00:00.0",
+    "Datos horarios": "2.12"
+  },
+  {
+    "fecha": "2013-11-23 10:00:00.0",
+    "Datos horarios": "2.04"
+  },
+  {
+    "fecha": "2013-11-23 11:00:00.0",
+    "Datos horarios": "1.92"
+  },
+  {
+    "fecha": "2013-11-23 12:00:00.0",
+    "Datos horarios": "1.98"
+  },
+  {
+    "fecha": "2013-11-23 13:00:00.0",
+    "Datos horarios": "1.85"
+  },
+  {
+    "fecha": "2013-11-23 14:00:00.0",
+    "Datos horarios": "1.81"
+  },
+  {
+    "fecha": "2013-11-23 15:00:00.0",
+    "Datos horarios": "1.71"
+  },
+  {
+    "fecha": "2013-11-23 16:00:00.0",
+    "Datos horarios": "1.68"
+  },
+  {
+    "fecha": "2013-11-23 17:00:00.0",
+    "Datos horarios": "1.7"
+  },
+  {
+    "fecha": "2013-11-23 18:00:00.0",
+    "Datos horarios": "1.77"
+  },
+  {
+    "fecha": "2013-11-23 19:00:00.0",
+    "Datos horarios": "1.9"
+  },
+  {
+    "fecha": "2013-11-23 20:00:00.0",
+    "Datos horarios": "1.82"
+  },
+  {
+    "fecha": "2013-11-23 21:00:00.0",
+    "Datos horarios": "1.77"
+  },
+  {
+    "fecha": "2013-11-23 22:00:00.0",
+    "Datos horarios": "1.71"
+  },
+  {
+    "fecha": "2013-11-23 23:00:00.0",
+    "Datos horarios": "1.77"
+  },
+  {
+    "fecha": "2013-11-24 00:00:00.0",
+    "Datos horarios": "1.67"
+  },
+  {
+    "fecha": "2013-11-24 01:00:00.0",
+    "Datos horarios": "1.7"
+  },
+  {
+    "fecha": "2013-11-24 02:00:00.0",
+    "Datos horarios": "1.73"
+  },
+  {
+    "fecha": "2013-11-24 03:00:00.0",
+    "Datos horarios": "1.56"
+  },
+  {
+    "fecha": "2013-11-24 04:00:00.0",
+    "Datos horarios": "1.69"
+  },
+  {
+    "fecha": "2013-11-24 05:00:00.0",
+    "Datos horarios": "1.6"
+  },
+  {
+    "fecha": "2013-11-24 06:00:00.0",
+    "Datos horarios": "1.77"
+  },
+  {
+    "fecha": "2013-11-24 07:00:00.0",
+    "Datos horarios": "1.9"
+  },
+  {
+    "fecha": "2013-11-24 08:00:00.0",
+    "Datos horarios": "1.67"
+  },
+  {
+    "fecha": "2013-11-24 09:00:00.0",
+    "Datos horarios": "1.95"
+  },
+  {
+    "fecha": "2013-11-24 10:00:00.0",
+    "Datos horarios": "1.77"
+  },
+  {
+    "fecha": "2013-11-24 11:00:00.0",
+    "Datos horarios": "1.95"
+  },
+  {
+    "fecha": "2013-11-24 12:00:00.0",
+    "Datos horarios": "1.91"
+  },
+  {
+    "fecha": "2013-11-24 13:00:00.0",
+    "Datos horarios": "2.01"
+  },
+  {
+    "fecha": "2013-11-24 14:00:00.0",
+    "Datos horarios": "1.82"
+  },
+  {
+    "fecha": "2013-11-24 15:00:00.0",
+    "Datos horarios": "1.85"
+  },
+  {
+    "fecha": "2013-11-24 16:00:00.0",
+    "Datos horarios": "1.91"
+  },
+  {
+    "fecha": "2013-11-24 17:00:00.0",
+    "Datos horarios": "1.81"
+  },
+  {
+    "fecha": "2013-11-24 18:00:00.0",
+    "Datos horarios": "1.85"
+  },
+  {
+    "fecha": "2013-11-24 19:00:00.0",
+    "Datos horarios": "1.8"
+  },
+  {
+    "fecha": "2013-11-24 20:00:00.0",
+    "Datos horarios": "1.74"
+  },
+  {
+    "fecha": "2013-11-24 21:00:00.0",
+    "Datos horarios": "1.72"
+  },
+  {
+    "fecha": "2013-11-24 22:00:00.0",
+    "Datos horarios": "1.82"
+  },
+  {
+    "fecha": "2013-11-24 23:00:00.0",
+    "Datos horarios": "1.75"
+  },
+  {
+    "fecha": "2013-11-25 00:00:00.0",
+    "Datos horarios": "1.8"
+  },
+  {
+    "fecha": "2013-11-25 01:00:00.0",
+    "Datos horarios": "1.76"
+  },
+  {
+    "fecha": "2013-11-25 02:00:00.0",
+    "Datos horarios": "1.7"
+  },
+  {
+    "fecha": "2013-11-25 03:00:00.0",
+    "Datos horarios": "1.81"
+  },
+  {
+    "fecha": "2013-11-25 04:00:00.0",
+    "Datos horarios": "1.63"
+  },
+  {
+    "fecha": "2013-11-25 05:00:00.0",
+    "Datos horarios": "1.72"
+  },
+  {
+    "fecha": "2013-11-25 06:00:00.0",
+    "Datos horarios": "1.85"
+  },
+  {
+    "fecha": "2013-11-25 07:00:00.0",
+    "Datos horarios": "1.68"
+  },
+  {
+    "fecha": "2013-11-25 08:00:00.0",
+    "Datos horarios": "1.67"
+  },
+  {
+    "fecha": "2013-11-25 09:00:00.0",
+    "Datos horarios": "1.77"
+  },
+  {
+    "fecha": "2013-11-25 10:00:00.0",
+    "Datos horarios": "1.37"
+  },
+  {
+    "fecha": "2013-11-25 11:00:00.0",
+    "Datos horarios": "1.68"
+  },
+  {
+    "fecha": "2013-11-25 12:00:00.0",
+    "Datos horarios": "1.6"
+  },
+  {
+    "fecha": "2013-11-25 13:00:00.0",
+    "Datos horarios": "1.8"
+  },
+  {
+    "fecha": "2013-11-25 14:00:00.0",
+    "Datos horarios": "1.73"
+  },
+  {
+    "fecha": "2013-11-25 15:00:00.0",
+    "Datos horarios": "2.0"
+  },
+  {
+    "fecha": "2013-11-25 16:00:00.0",
+    "Datos horarios": "1.86"
+  },
+  {
+    "fecha": "2013-11-25 17:00:00.0",
+    "Datos horarios": "1.82"
+  },
+  {
+    "fecha": "2013-11-25 18:00:00.0",
+    "Datos horarios": "1.74"
+  },
+  {
+    "fecha": "2013-11-25 19:00:00.0",
+    "Datos horarios": "1.56"
+  },
+  {
+    "fecha": "2013-11-25 20:00:00.0",
+    "Datos horarios": "1.69"
+  },
+  {
+    "fecha": "2013-11-25 21:00:00.0",
+    "Datos horarios": "1.62"
+  },
+  {
+    "fecha": "2013-11-25 22:00:00.0",
+    "Datos horarios": "1.62"
+  },
+  {
+    "fecha": "2013-11-25 23:00:00.0",
+    "Datos horarios": "1.81"
+  },
+  {
+    "fecha": "2013-11-26 00:00:00.0",
+    "Datos horarios": "1.68"
+  },
+  {
+    "fecha": "2013-11-26 01:00:00.0",
+    "Datos horarios": "1.69"
+  },
+  {
+    "fecha": "2013-11-26 02:00:00.0",
+    "Datos horarios": "1.84"
+  },
+  {
+    "fecha": "2013-11-26 03:00:00.0",
+    "Datos horarios": "1.85"
+  },
+  {
+    "fecha": "2013-11-26 04:00:00.0",
+    "Datos horarios": "2.05"
+  },
+  {
+    "fecha": "2013-11-26 05:00:00.0",
+    "Datos horarios": "1.98"
+  },
+  {
+    "fecha": "2013-11-26 06:00:00.0",
+    "Datos horarios": "1.59"
+  },
+  {
+    "fecha": "2013-11-26 07:00:00.0",
+    "Datos horarios": "1.69"
+  },
+  {
+    "fecha": "2013-11-26 08:00:00.0",
+    "Datos horarios": "1.66"
+  },
+  {
+    "fecha": "2013-11-26 09:00:00.0",
+    "Datos horarios": "1.54"
+  },
+  {
+    "fecha": "2013-11-26 10:00:00.0",
+    "Datos horarios": "1.57"
+  },
+  {
+    "fecha": "2013-11-26 12:00:00.0",
+    "Datos horarios": "1.54"
+  },
+  {
+    "fecha": "2013-11-26 13:00:00.0",
+    "Datos horarios": "1.51"
+  },
+  {
+    "fecha": "2013-11-26 14:00:00.0",
+    "Datos horarios": "1.41"
+  },
+  {
+    "fecha": "2013-11-26 15:00:00.0",
+    "Datos horarios": "1.55"
+  },
+  {
+    "fecha": "2013-11-26 16:00:00.0",
+    "Datos horarios": "1.47"
+  },
+  {
+    "fecha": "2013-11-26 17:00:00.0",
+    "Datos horarios": "1.37"
+  },
+  {
+    "fecha": "2013-11-26 18:00:00.0",
+    "Datos horarios": "1.43"
+  },
+  {
+    "fecha": "2013-11-26 19:00:00.0",
+    "Datos horarios": "1.6"
+  },
+  {
+    "fecha": "2013-11-26 20:00:00.0",
+    "Datos horarios": "1.62"
+  },
+  {
+    "fecha": "2013-11-26 21:00:00.0",
+    "Datos horarios": "1.6"
+  },
+  {
+    "fecha": "2013-11-26 22:00:00.0",
+    "Datos horarios": "1.78"
+  },
+  {
+    "fecha": "2013-11-26 23:00:00.0",
+    "Datos horarios": "1.78"
+  },
+  {
+    "fecha": "2013-11-27 00:00:00.0",
+    "Datos horarios": "1.76"
+  },
+  {
+    "fecha": "2013-11-27 01:00:00.0",
+    "Datos horarios": "1.82"
+  },
+  {
+    "fecha": "2013-11-27 02:00:00.0",
+    "Datos horarios": "1.78"
+  },
+  {
+    "fecha": "2013-11-27 03:00:00.0",
+    "Datos horarios": "1.62"
+  },
+  {
+    "fecha": "2013-11-27 04:00:00.0",
+    "Datos horarios": "1.63"
+  },
+  {
+    "fecha": "2013-11-27 05:00:00.0",
+    "Datos horarios": "1.55"
+  },
+  {
+    "fecha": "2013-11-27 06:00:00.0",
+    "Datos horarios": "1.49"
+  },
+  {
+    "fecha": "2013-11-27 07:00:00.0",
+    "Datos horarios": "1.53"
+  },
+  {
+    "fecha": "2013-11-27 08:00:00.0",
+    "Datos horarios": "1.45"
+  },
+  {
+    "fecha": "2013-11-27 09:00:00.0",
+    "Datos horarios": "1.39"
+  },
+  {
+    "fecha": "2013-11-27 10:00:00.0",
+    "Datos horarios": "1.39"
+  },
+  {
+    "fecha": "2013-11-27 11:00:00.0",
+    "Datos horarios": "1.36"
+  },
+  {
+    "fecha": "2013-11-27 12:00:00.0",
+    "Datos horarios": "1.22"
+  },
+  {
+    "fecha": "2013-11-27 13:00:00.0",
+    "Datos horarios": "1.13"
+  },
+  {
+    "fecha": "2013-11-27 14:00:00.0",
+    "Datos horarios": "1.1"
+  },
+  {
+    "fecha": "2013-11-27 15:00:00.0",
+    "Datos horarios": "1.07"
+  },
+  {
+    "fecha": "2013-11-27 16:00:00.0",
+    "Datos horarios": "0.95"
+  },
+  {
+    "fecha": "2013-11-27 17:00:00.0",
+    "Datos horarios": "0.95"
+  },
+  {
+    "fecha": "2013-11-27 18:00:00.0",
+    "Datos horarios": "0.92"
+  },
+  {
+    "fecha": "2013-11-27 19:00:00.0",
+    "Datos horarios": "0.9"
+  },
+  {
+    "fecha": "2013-11-27 20:00:00.0",
+    "Datos horarios": "0.85"
+  },
+  {
+    "fecha": "2013-11-27 21:00:00.0",
+    "Datos horarios": "0.93"
+  },
+  {
+    "fecha": "2013-11-27 22:00:00.0",
+    "Datos horarios": "0.97"
+  },
+  {
+    "fecha": "2013-11-27 23:00:00.0",
+    "Datos horarios": "1.06"
+  },
+  {
+    "fecha": "2013-11-28 00:00:00.0",
+    "Datos horarios": "1.04"
+  },
+  {
+    "fecha": "2013-11-28 01:00:00.0",
+    "Datos horarios": "1.0"
+  },
+  {
+    "fecha": "2013-11-28 02:00:00.0",
+    "Datos horarios": "0.88"
+  },
+  {
+    "fecha": "2013-11-28 03:00:00.0",
+    "Datos horarios": "0.9"
+  },
+  {
+    "fecha": "2013-11-28 04:00:00.0",
+    "Datos horarios": "0.92"
+  },
+  {
+    "fecha": "2013-11-28 05:00:00.0",
+    "Datos horarios": "0.85"
+  },
+  {
+    "fecha": "2013-11-28 06:00:00.0",
+    "Datos horarios": "0.8"
+  },
+  {
+    "fecha": "2013-11-28 07:00:00.0",
+    "Datos horarios": "0.79"
+  },
+  {
+    "fecha": "2013-11-28 08:00:00.0",
+    "Datos horarios": "0.74"
+  },
+  {
+    "fecha": "2013-11-28 09:00:00.0",
+    "Datos horarios": "0.74"
+  },
+  {
+    "fecha": "2013-11-28 10:00:00.0",
+    "Datos horarios": "0.72"
+  },
+  {
+    "fecha": "2013-11-28 11:00:00.0",
+    "Datos horarios": "0.67"
+  },
+  {
+    "fecha": "2013-11-28 12:00:00.0",
+    "Datos horarios": "0.64"
+  },
+  {
+    "fecha": "2013-11-28 13:00:00.0",
+    "Datos horarios": "0.64"
+  },
+  {
+    "fecha": "2013-11-28 14:00:00.0",
+    "Datos horarios": "0.59"
+  },
+  {
+    "fecha": "2013-11-28 15:00:00.0",
+    "Datos horarios": "0.63"
+  },
+  {
+    "fecha": "2013-11-28 16:00:00.0",
+    "Datos horarios": "0.58"
+  },
+  {
+    "fecha": "2013-11-28 17:00:00.0",
+    "Datos horarios": "0.58"
+  },
+  {
+    "fecha": "2013-11-28 18:00:00.0",
+    "Datos horarios": "0.61"
+  },
+  {
+    "fecha": "2013-11-28 19:00:00.0",
+    "Datos horarios": "0.62"
+  },
+  {
+    "fecha": "2013-11-28 20:00:00.0",
+    "Datos horarios": "0.63"
+  },
+  {
+    "fecha": "2013-11-28 21:00:00.0",
+    "Datos horarios": "0.63"
+  },
+  {
+    "fecha": "2013-11-28 23:00:00.0",
+    "Datos horarios": "0.64"
+  },
+  {
+    "fecha": "2013-11-29 00:00:00.0",
+    "Datos horarios": "0.66"
+  },
+  {
+    "fecha": "2013-11-29 01:00:00.0",
+    "Datos horarios": "0.7"
+  },
+  {
+    "fecha": "2013-11-29 02:00:00.0",
+    "Datos horarios": "0.69"
+  },
+  {
+    "fecha": "2013-11-29 03:00:00.0",
+    "Datos horarios": "0.79"
+  },
+  {
+    "fecha": "2013-11-29 04:00:00.0",
+    "Datos horarios": "0.8"
+  },
+  {
+    "fecha": "2013-11-29 05:00:00.0",
+    "Datos horarios": "0.86"
+  },
+  {
+    "fecha": "2013-11-29 06:00:00.0",
+    "Datos horarios": "0.9"
+  }
+]
