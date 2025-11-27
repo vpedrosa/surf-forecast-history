@@ -1,4 +1,4 @@
-import { getBeachByName, findNearestBuoy, getWeekWaveData, getAvailableWeeksCount, getDataDateRange } from '@/lib/data-loader';
+import { getBeachByName, findNearestBuoy, loadWaveData, getDataDateRange } from '@/lib/data-loader';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Footer } from '@/components/footer';
@@ -27,10 +27,26 @@ export default async function BeachPage({ params }: BeachPageProps) {
   // Encontrar la boya más cercana
   const nearestBuoy = await findNearestBuoy(beach.latitude, beach.longitude);
 
-  // Obtener datos de la semana actual, el máximo de semanas disponibles y el rango de fechas
-  const weekData = nearestBuoy ? await getWeekWaveData(nearestBuoy.id, 0) : null;
-  const maxWeekOffset = nearestBuoy ? await getAvailableWeeksCount(nearestBuoy.id) : 0;
-  const dateRange = nearestBuoy ? await getDataDateRange(nearestBuoy.id) : null;
+  // Cargar TODOS los datos de olas de una vez
+  let allWaveData = null;
+  let dateRange = null;
+
+  if (nearestBuoy) {
+    const [heightData, periodData, directionData, range] = await Promise.all([
+      loadWaveData(nearestBuoy.id, 'height'),
+      loadWaveData(nearestBuoy.id, 'period'),
+      loadWaveData(nearestBuoy.id, 'direction'),
+      getDataDateRange(nearestBuoy.id),
+    ]);
+
+    allWaveData = {
+      height: heightData,
+      period: periodData,
+      direction: directionData,
+    };
+
+    dateRange = range;
+  }
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -171,11 +187,9 @@ export default async function BeachPage({ params }: BeachPageProps) {
                 </div>
               )}
             </div>
-            {nearestBuoy ? (
+            {nearestBuoy && allWaveData ? (
               <WaveDataViewer
-                buoyId={nearestBuoy.id}
-                initialWeekData={weekData}
-                maxWeekOffset={maxWeekOffset}
+                allWaveData={allWaveData}
               />
             ) : (
               <Card className="p-8">

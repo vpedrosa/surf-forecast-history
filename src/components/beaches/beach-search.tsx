@@ -5,12 +5,17 @@ import { Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Card } from '@/components/ui/card';
 import { useBeachStore } from '@/stores/beach.store';
+import { Beach } from '@/types/beach';
 
-export function BeachSearch() {
+interface BeachSearchProps {
+  allBeaches: Beach[];
+}
+
+export function BeachSearch({ allBeaches }: BeachSearchProps) {
   const [query, setQuery] = useState('');
   const { setBeaches, setIsLoading, setError, setHasSearched } = useBeachStore();
 
-  const performSearch = useCallback(async (searchQuery: string) => {
+  const performSearch = useCallback((searchQuery: string) => {
     if (searchQuery.trim().length === 0) {
       setBeaches([]);
       setHasSearched(false);
@@ -23,26 +28,24 @@ export function BeachSearch() {
     setHasSearched(true);
 
     try {
-      const response = await fetch(`/api/beaches?query=${encodeURIComponent(searchQuery)}`);
-
-      if (!response.ok) {
-        throw new Error('Error al buscar playas');
-      }
-
-      const beaches = await response.json();
-      setBeaches(beaches);
+      // Búsqueda local en el cliente
+      const lowerQuery = searchQuery.toLowerCase();
+      const filtered = allBeaches.filter((beach) =>
+        beach.name.toLowerCase().includes(lowerQuery)
+      );
+      setBeaches(filtered);
     } catch (error) {
       console.error('Error searching beaches:', error);
       setError('Error al buscar playas. Por favor intenta de nuevo.');
     } finally {
       setIsLoading(false);
     }
-  }, [setBeaches, setIsLoading, setError, setHasSearched]);
+  }, [allBeaches, setBeaches, setIsLoading, setError, setHasSearched]);
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       performSearch(query);
-    }, 500);
+    }, 300); // Reducido a 300ms ya que es búsqueda local
 
     return () => clearTimeout(timeoutId);
   }, [query, performSearch]);

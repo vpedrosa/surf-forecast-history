@@ -1,11 +1,15 @@
 import { BeachSearch } from '@/components/beaches/beach-search';
 import { BeachList } from '@/components/beaches/beach-list';
 import { Footer } from '@/components/footer';
+import { loadBeaches } from '@/lib/data-loader';
 import Link from 'next/link';
 import { List } from 'lucide-react';
 import Image from 'next/image';
 
-export default function Home() {
+export default async function Home() {
+  // Cargar todas las playas en el servidor
+  const allBeaches = await loadBeaches();
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <main className="container mx-auto py-8 px-4 flex-1 flex items-center">
@@ -33,7 +37,7 @@ export default function Home() {
           </div>
 
           {/* Buscador */}
-          <BeachSearch />
+          <BeachSearch allBeaches={allBeaches} />
 
           {/* Resultados */}
           <div className="mt-8">

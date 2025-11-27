@@ -1,15 +1,17 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Waves, Calendar, Navigation, ChevronLeft, ChevronRight } from 'lucide-react';
-import { WeeklyWaveData } from '@/types/beach';
+import { WeeklyWaveData, WaveDataPoint } from '@/types/beach';
 
 interface WaveDataViewerProps {
-  buoyId: number;
-  initialWeekData: WeeklyWaveData | null;
-  maxWeekOffset: number;
+  allWaveData: {
+    height: WaveDataPoint[];
+    period: WaveDataPoint[];
+    direction: WaveDataPoint[];
+  };
 }
 
 function getDirectionLabel(degrees: number): string {
@@ -18,47 +20,106 @@ function getDirectionLabel(degrees: number): string {
   return directions[index];
 }
 
-export function WaveDataViewer({ buoyId, initialWeekData, maxWeekOffset }: WaveDataViewerProps) {
-  const [weekOffset, setWeekOffset] = useState(0);
-  const [weekData, setWeekData] = useState<WeeklyWaveData | null>(initialWeekData);
-  const [isLoading, setIsLoading] = useState(false);
+// Función auxiliar para obtener el inicio de semana
+function getWeekStart(date: Date): Date {
+  const d = new Date(date);
+  const day = d.getDay();
+  const diff = d.getDate() - day + (day === 0 ? -6 : 1);
+  d.setDate(diff);
+  d.setHours(0, 0, 0, 0);
+  return d;
+}
 
-  const loadWeekData = async (offset: number) => {
-    setIsLoading(true);
-    try {
-      const response = await fetch(`/api/wave-data?buoyId=${buoyId}&weekOffset=${offset}`);
-      if (response.ok) {
-        const data = await response.json();
-        // Convert date strings to Date objects
-        const weekData: WeeklyWaveData = {
-          weekStart: new Date(data.weekStart),
-          weekEnd: new Date(data.weekEnd),
-          days: data.days.map((day: any) => ({
-            date: new Date(day.date),
-            height: day.height,
-            period: day.period,
-            direction: day.direction,
-          })),
-        };
-        setWeekData(weekData);
-        setWeekOffset(offset);
-      }
-    } catch (error) {
-      console.error('Error loading week data:', error);
-    } finally {
-      setIsLoading(false);
+// Función auxiliar para obtener el fin de semana
+function getWeekEnd(date: Date): Date {
+  const start = getWeekStart(date);
+  const end = new Date(start);
+  end.setDate(start.getDate() + 6);
+  end.setHours(23, 59, 59, 999);
+  return end;
+}
+
+export function WaveDataViewer({ allWaveData }: WaveDataViewerProps) {
+  const [weekOffset, setWeekOffset] = useState(0);
+
+  // Procesar todos los datos en el cliente para obtener el máximo de semanas y los datos de la semana actual
+  const { maxWeekOffset, weekData } = useMemo(() => {
+    const { height, period, direction } = allWaveData;
+
+    if (height.length === 0) {
+      return { maxWeekOffset: 0, weekData: null };
     }
-  };
+
+    // Crear mapas para acceso rápido
+    const heightMap = new Map<string, string>();
+    const periodMap = new Map<string, string>();
+    const directionMap = new Map<string, string>();
+
+    height.forEach((item) => {
+      const date = new Date(item.fecha).toISOString().split('T')[0];
+      heightMap.set(date, item['Datos horarios']);
+    });
+
+    period.forEach((item) => {
+      const date = new Date(item.fecha).toISOString().split('T')[0];
+      periodMap.set(date, item['Datos horarios']);
+    });
+
+    direction.forEach((item) => {
+      const date = new Date(item.fecha).toISOString().split('T')[0];
+      directionMap.set(date, item['Datos horarios']);
+    });
+
+    // Calcular máximo de semanas
+    const dates = height.map(item => new Date(item.fecha));
+    const oldestDate = new Date(Math.min(...dates.map(d => d.getTime())));
+    const newestDate = new Date(Math.max(...dates.map(d => d.getTime())));
+    const diffTime = Math.abs(newestDate.getTime() - oldestDate.getTime());
+    const maxWeeks = Math.ceil(diffTime / (1000 * 60 * 60 * 24 * 7));
+
+    // Calcular datos de la semana actual basado en offset
+    const now = new Date();
+    const targetDate = new Date(now);
+    targetDate.setDate(targetDate.getDate() - (weekOffset * 7));
+    const targetWeekStart = getWeekStart(targetDate);
+    const targetWeekEnd = getWeekEnd(targetWeekStart);
+
+    const weekDays = [];
+    for (let i = 0; i < 7; i++) {
+      const currentDay = new Date(targetWeekStart);
+      currentDay.setDate(targetWeekStart.getDate() + i);
+      const dateStr = currentDay.toISOString().split('T')[0];
+
+      const heightValue = heightMap.get(dateStr);
+      const periodValue = periodMap.get(dateStr);
+      const directionValue = directionMap.get(dateStr);
+
+      weekDays.push({
+        date: new Date(currentDay),
+        height: heightValue ? parseFloat(heightValue) : null,
+        period: periodValue ? parseFloat(periodValue) : null,
+        direction: directionValue ? parseFloat(directionValue) : null,
+      });
+    }
+
+    const currentWeekData: WeeklyWaveData = {
+      weekStart: targetWeekStart,
+      weekEnd: targetWeekEnd,
+      days: weekDays,
+    };
+
+    return { maxWeekOffset: maxWeeks, weekData: currentWeekData };
+  }, [allWaveData, weekOffset]);
 
   const goToPreviousWeek = () => {
-    if (weekOffset < maxWeekOffset) {
-      loadWeekData(weekOffset + 1);
+    if (weekOffset < maxWeekOffset - 1) {
+      setWeekOffset(weekOffset + 1);
     }
   };
 
   const goToNextWeek = () => {
     if (weekOffset > 0) {
-      loadWeekData(weekOffset - 1);
+      setWeekOffset(weekOffset - 1);
     }
   };
 
@@ -80,7 +141,7 @@ export function WaveDataViewer({ buoyId, initialWeekData, maxWeekOffset }: WaveD
           variant="outline"
           size="sm"
           onClick={goToPreviousWeek}
-          disabled={isLoading || weekOffset >= maxWeekOffset}
+          disabled={weekOffset >= maxWeekOffset - 1}
         >
           <ChevronLeft className="h-4 w-4 mr-2" />
           Semana anterior
@@ -100,7 +161,7 @@ export function WaveDataViewer({ buoyId, initialWeekData, maxWeekOffset }: WaveD
           variant="outline"
           size="sm"
           onClick={goToNextWeek}
-          disabled={isLoading || weekOffset === 0}
+          disabled={weekOffset === 0}
         >
           Semana siguiente
           <ChevronRight className="h-4 w-4 ml-2" />
