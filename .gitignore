@@ -44,8 +44,3 @@ next-env.d.ts
 /src/generated/prisma
 *.db
 *.db-journal
-
-# cypress
-/cypress/screenshots
-/cypress/videos
-/cypress/downloads

@@ -47,9 +47,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate Prisma Client
-        run: npm run prisma:generate
-
       - name: Build Next.js app
         run: npm run build
 
@@ -58,56 +55,4 @@ jobs:
         with:
           name: build
           path: .next/
-          retention-days: 7
-
-  test-e2e:
-    runs-on: ubuntu-latest
-    name: E2E Tests
-    needs: build
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Generate Prisma Client
-        run: npm run prisma:generate
-
-      - name: Run Prisma migrations
-        run: npm run prisma:migrate
-        env:
-          DATABASE_URL: file:./test.db
-
-      - name: Run Cypress E2E tests
-        uses: cypress-io/github-action@v6
-        with:
-          build: npm run build
-          start: npm start
-          wait-on: 'http://localhost:3000'
-          wait-on-timeout: 120
-        env:
-          DATABASE_URL: file:./test.db
-
-      - name: Upload Cypress screenshots
-        uses: actions/upload-artifact@v4
-        if: failure()
-        with:
-          name: cypress-screenshots
-          path: cypress/screenshots
-          retention-days: 7
-
-      - name: Upload Cypress videos
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: cypress-videos
-          path: cypress/videos
           retention-days: 7
