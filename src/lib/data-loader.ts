@@ -43,8 +43,24 @@ export async function loadWaveData(
 ): Promise<WaveDataPoint[]> {
   try {
     const filePath = path.join(DATA_DIR, `${buoyId}-${type}.json`);
+
+    // Verificar si el archivo existe
+    try {
+      await fs.access(filePath);
+    } catch {
+      // El archivo no existe, devolver array vacío sin error
+      return [];
+    }
+
     const fileContent = await fs.readFile(filePath, 'utf-8');
-    return JSON.parse(fileContent);
+    const data = JSON.parse(fileContent);
+
+    // Si el archivo contiene un array vacío, devolverlo
+    if (Array.isArray(data) && data.length === 0) {
+      return [];
+    }
+
+    return data;
   } catch (error) {
     console.error(`Error loading wave data for buoy ${buoyId}, type ${type}:`, error);
     return [];
